@@ -1,0 +1,57 @@
+.user-pic {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: 20px auto 20px;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    
+}
+
+.card-box {
+    padding: 15px;
+    background-color: #121212;
+    margin: 20px 0px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    box-shadow: 2px 0px 4px 0px #d4d4d4;
+    color: #CCCCCC;
+    
+}
+.card-box:hover {
+	border: 1px solid #FFCC66;
+}
+.card-box p {
+    color: #CCCCCC;
+}
+
+.body1 {
+    background-color: #24252A;
+   
+}
+
+.btnhide {
+    opacity: 0;
+    
+}
+
+.card-box:hover .btnhide{
+    opacity: 1;
+    transition: 1s ease-in-out;
+    
+}
+
+.tc {
+    color: #FFCC66;
+}
+
+.tc2 {
+    color: #CCCCCC ;
+}
+
+
+
+
